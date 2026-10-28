@@ -1,0 +1,332 @@
+{
+  "@@locale": "en",
+  "appName": "CatalogX",
+  "@appName": { "description": "Application title" },
+  "pullToRefresh": "Pull down to refresh",
+  "retry": "Retry",
+  "undo": "Undo",
+  "clearAll": "Clear All",
+  "loading": "Loading...",
+  "save": "Save",
+  "close": "Close",
+
+  "navCatalog": "Catalog",
+  "navCategories": "Categories",
+  "navWishlist": "Wishlist",
+  "navProfile": "Profile",
+  "navCart": "Cart",
+
+  "searchHint": "Search products, brands, or categories...",
+  "searchVoiceStarting": "Starting voice search...",
+  "allCategory": "All",
+  "showingCountOfTotal": "Showing {loaded} of {total} items",
+  "@showingCountOfTotal": {
+    "placeholders": {
+      "loaded": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "clearSearchAndFilters": "Clear search and filters",
+  "sortBy": "Sort by",
+  "sortPopular": "Popular",
+  "sortRatingDesc": "Top Rated",
+  "sortPriceAsc": "Price: Low to High",
+  "sortPriceDesc": "Price: High to Low",
+  "sortTitleAsc": "Name A - Z",
+  "filterTooltip": "Filter",
+
+  "pageOfTotal": "Page {current} of {total}",
+  "@pageOfTotal": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "loadedOfTotal": "Loaded {loaded} of {total} items",
+  "@loadedOfTotal": {
+    "placeholders": {
+      "loaded": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "loadingMore": "Loading next page...",
+  "loadMoreButton": "Load more products...",
+  "retryLoadMore": "Try again",
+  "allLoaded": "All products loaded",
+
+  "discountBadge": "-{percent}%",
+  "@discountBadge": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "outOfStock": "• Out of stock",
+  "outOfStockBadge": "Out of stock",
+  "maxStockReached": "• Max stock ({stock} items)",
+  "@maxStockReached": {
+    "placeholders": {
+      "stock": { "type": "int" }
+    }
+  },
+  "maxStockReachedShort": "• Max stock ({stock})",
+  "@maxStockReachedShort": {
+    "placeholders": {
+      "stock": { "type": "int" }
+    }
+  },
+  "onlyStockLeft": "• Only {stock} left!",
+  "@onlyStockLeft": {
+    "placeholders": {
+      "stock": { "type": "int" }
+    }
+  },
+  "inStockCount": "• In stock ({stock} items)",
+  "@inStockCount": {
+    "placeholders": {
+      "stock": { "type": "int" }
+    }
+  },
+  "inStockCountShort": "• In stock ({stock})",
+  "@inStockCountShort": {
+    "placeholders": {
+      "stock": { "type": "int" }
+    }
+  },
+  "addToCartTooltip": "Add to cart",
+  "reduceQuantityTooltip": "Decrease quantity",
+  "increaseQuantityTooltip": "Increase quantity",
+  "maxStockTooltip": "Maximum stock reached",
+  "addedToCartSnackbar": "Added \"{title}\" to cart",
+  "@addedToCartSnackbar": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+
+  "cartTitle": "Cart ({count})",
+  "@cartTitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "emptyCartTitle": "Your cart is empty",
+  "emptyCartSubtitle": "Explore products you like and add them to your cart",
+  "browseProducts": "Browse Products",
+  "removeCartItemTooltip": "Remove this item",
+  "removedFromCartSnackbar": "Removed \"{title}\" from cart",
+  "@removedFromCartSnackbar": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "lineTotalPrefix": "Subtotal {amount}",
+  "@lineTotalPrefix": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "cartSubtotalLabel": "Subtotal",
+  "checkoutButton": "Proceed to Checkout",
+  "checkoutSnackbar": "Proceeding to checkout, total {amount}",
+  "@checkoutSnackbar": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+
+  "wishlistTitle": "Wishlist ({count})",
+  "@wishlistTitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "emptyWishlistTitle": "No saved items",
+  "emptyWishlistSubtitle": "Tap the heart icon on any product to save it here",
+
+  "categoriesTitle": "Categories",
+  "allCategoriesSubtitle": "View all products",
+
+  "productDetailsTitle": "Product Details",
+  "shareSuccessSnackbar": "Product link shared successfully",
+  "shareTooltip": "Share product",
+  "reviewsCount": "{rating} ({count} reviews)",
+  "@reviewsCount": {
+    "placeholders": {
+      "rating": { "type": "String" },
+      "count": { "type": "int" }
+    }
+  },
+  "saveAmount": "Save {amount}",
+  "@saveAmount": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "temporarilyOutOfStock": "Temporarily out of stock",
+  "readyToShipWithStatus": "Ready to ship ({status})",
+  "@readyToShipWithStatus": {
+    "placeholders": {
+      "status": { "type": "String" }
+    }
+  },
+  "colorOrOption": "Color / Option",
+  "quantityLabel": "Quantity",
+  "inCartIndicator": "In cart ({count})",
+  "@inCartIndicator": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "maxStockReachedBanner": "Maximum stock reached",
+  "stockLimitExceededSnackbar": "Product \"{title}\" only has {stock} items in stock",
+  "@stockLimitExceededSnackbar": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "stock": { "type": "int" }
+    }
+  },
+  "contactSupportTooltip": "Customer Support",
+  "contactSupportSnackbar": "Connecting to customer support...",
+  "addToCartButton": "Add to Cart",
+  "viewCartButton": "View Cart ({count})",
+  "@viewCartButton": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "buyNowButton": "Buy Now",
+  "buyNowCheckoutSnackbar": "Proceeding to checkout for {title}",
+  "@buyNowCheckoutSnackbar": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "addedItemsToCartSnackbar": "Added {count} items to cart",
+  "@addedItemsToCartSnackbar": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "tabDescription": "Description",
+  "tabShippingAndReturns": "Shipping & Returns",
+  "specDimensionsAndWeight": "Dimensions & Weight",
+  "specSku": "SKU",
+  "reviewsHeader": "Customer Reviews ({count})",
+  "@reviewsHeader": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "infoShipping": "Shipping Information",
+  "infoShippingDefault": "Standard delivery within 2-3 business days",
+  "infoReturnPolicy": "Return Policy",
+  "infoReturnPolicyDefault": "Returns accepted per store conditions",
+  "infoWarranty": "Warranty Information",
+  "infoWarrantyDefault": "Official manufacturer warranty",
+  "infoMinOrder": "Minimum Order Quantity",
+  "infoMinOrderValue": "{count} items",
+  "@infoMinOrderValue": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "badgeAuthentic": "100% Authentic",
+  "badgeInstallment": "0% Installment",
+  "badgeInstallmentSub": "Up to 10 months",
+  "badgeEasyReturn": "Easy Returns",
+  "badgeEasyReturnSub": "Within 30 days",
+
+  "profileTitle": "Profile",
+  "memberStatus": "Gold Member",
+  "savedItemsStat": "Wishlist",
+  "inCartStat": "In Cart",
+  "orderHistoryTitle": "Order History",
+  "orderHistorySubtitle": "Check order status and tracking",
+  "orderHistorySnackbar": "Opening order history...",
+  "shippingAddressTitle": "Shipping Addresses",
+  "shippingAddressSubtitle": "Manage shipping and billing addresses",
+  "paymentMethodsTitle": "Payment Methods",
+  "paymentMethodsSubtitle": "Credit/Debit cards & PromptPay",
+  "languageTitle": "Language",
+  "languageSubtitle": "Current: {language}",
+  "@languageSubtitle": {
+    "placeholders": {
+      "language": { "type": "String" }
+    }
+  },
+  "appLanguageName": "English",
+  "currencyNameThb": "Thai Baht",
+  "currencyNameUsd": "US Dollar",
+  "currencyTitle": "Currency",
+  "currencySubtitle": "Current: {currency}",
+  "@currencySubtitle": {
+    "placeholders": {
+      "currency": { "type": "String" }
+    }
+  },
+  "currencyExchangeRateNotice": "Exchange rate: 1 USD = {rate} THB",
+  "@currencyExchangeRateNotice": {
+    "placeholders": {
+      "rate": { "type": "String" }
+    }
+  },
+  "helpCenterTitle": "Help Center",
+  "helpCenterSubtitle": "FAQs and Customer Service",
+  "aboutAppTitle": "About Application",
+  "aboutAppSubtitle": "Version 0.1.0 (Build 1)",
+  "signOutTitle": "Sign Out",
+
+  "filterTitle": "Filters",
+  "filterClearAll": "Reset All",
+  "filterResetSnackbar": "All filters have been reset",
+  "priceRangeTitle": "Price Range",
+  "minRatingTitle": "Minimum Rating",
+  "ratingAny": "Any",
+  "ratingAndAbove": "{rating} ★ and above",
+  "@ratingAndAbove": {
+    "placeholders": {
+      "rating": { "type": "String" }
+    }
+  },
+  "inStockOnlyTitle": "In-stock items only",
+  "applyFiltersButton": "Apply Filters",
+
+  "loadErrorTitle": "Unable to load data",
+  "emptyProductsTitle": "No products found",
+  "emptyProductsDefaultMessage": "No products match your criteria",
+  "noProductsMatchingQuery": "No products found matching \"{query}\"",
+  "@noProductsMatchingQuery": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+  "noProductsMatchingFilters": "No products match selected filters",
+
+  "switchLanguageTooltip": "Switch language",
+  "categoriesFilterTitle": "Categories",
+  "clearCategorySelection": "Clear",
+  "clearFiltersChip": "Clear filters",
+  "unitCm": "cm",
+  "weightGrams": "{weight} g",
+  "@weightGrams": {
+    "placeholders": {
+      "weight": { "type": "int" }
+    }
+  },
+
+  "dailyExchangeRateBadge": "Daily Reference Rate",
+  "fallbackExchangeRateBadge": "Offline (Default)",
+  "exchangeRateAsOfDate": "As of {date}",
+  "@exchangeRateAsOfDate": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "refreshExchangeRateTooltip": "Refresh live exchange rate",
+  "exchangeRateUpdatedSnackbar": "Exchange rate updated: 1 USD = {rate} THB",
+  "@exchangeRateUpdatedSnackbar": {
+    "placeholders": {
+      "rate": { "type": "String" }
+    }
+  }
+}
